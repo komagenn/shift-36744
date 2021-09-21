@@ -1,0 +1,7 @@
+<div class="contents row">
+  <% @users.each do |user| %>
+     <p><%= user.nick_name %></p>
+      <span class="name">
+        <%= user.full_width_first_name%>
+  <% end %>
+</div>
